@@ -16,7 +16,7 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("/tohello")
-    public  String tohello(String name){
-        return userService.hello(name);
+    public  String tohello(String name, String token){
+        return userService.hello(name, token);
     }
 }
