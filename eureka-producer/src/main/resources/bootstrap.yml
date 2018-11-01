@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka.producer         # 指定配置中心配置文件的{application}
+    name: eureka-producer         # 指定配置中心配置文件的{application}
   security:
     user:
       name: admin
