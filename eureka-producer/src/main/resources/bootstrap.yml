@@ -13,6 +13,11 @@ spring:
       discovery:
         enabled: true                    # 使用注册中心里面已注册的配置中心
         serviceId: config-server  # 指定配置中心注册到注册中心的serviceId
+  rabbitmq:
+    host: localhost
+    port: 5672        # 注意端口是5672，不是15672
+    username: test
+    password: test
 
 eureka:
   port: 9001
